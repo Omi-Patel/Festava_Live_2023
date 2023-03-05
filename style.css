@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    
+    /* border: 2px solid black; */
+    /* width: 100vw; */
+    height: 100vh;
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+    
+}
+
+.head{
+    /* border: 2px solid rgb(48, 57, 233); */
+    /* height: 5%; */
+    padding: 6px;
+    padding: auto;
+    background-color: rgba(255, 251, 0, 0.647);
+    text-align: center;
+}
+
+
+
+/* CSS for Navigation */
+.nav{
+    /* font-weight: bolder; */
+    /* border: 2px solid black; */
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    /* background-color: rgb(124, 73, 2); */
+    font-size: 32px;
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.logo:hover{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.309);
+    
+}
+.items ul {
+    display: flex;
+}
+.items a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.526);
+    padding: 8px 18px;
+    border-radius: 20px;  
+}
+
+.items a:hover{
+    /* border-bottom: 1px solid cyan; */
+    /* border-top: 1px solid cyan; */
+    box-shadow: inset 0px 0px 10px gold;
+    border-radius: 10px;
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    transition: 0.5s;
+    /* font-weight: bolder; */
+}
+
+.items ul li{
+    list-style: none;
+    margin: 10px;
+}
+.btn{
+    padding: 8px 20px;
+    background: rgba(255, 166, 0, 0.779);
+    font-weight: bolder;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: none;
+
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 8px black;
+}
+
+/* CSS for Content */
+.content{
+    /* border: 2px solid teal; */
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.content .headline{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.309);
+    padding: 5px;
+    border-radius: 4px;
+    text-shadow: 0px 0px 8px rgb(0, 255, 4);
+}
+.content .btn{
+    margin-top: 30px;
+
+}
+.first-footer{
+    /* border: 2px solid rgb(17, 239, 51); */
+    height: 10%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+
+}
+.first-footer p{
+    padding: 4px 20px;
+    background-color: rgba(0, 0, 0, 0.309);
+    color: chartreuse;
+    text-shadow: 0px 0px 4px chartreuse;
+
+}
+/* .first-footer p:hover{
+    background-color: rgba(34, 251, 139, 0.528);
+    color: black;
+    border-radius: 10px;
+} */
