@@ -57,10 +57,12 @@
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.526);
     padding: 8px 18px;
+    border: 2px solid rgba(0, 0, 0, 0.315);
     border-radius: 20px;  
 }
 
 .items a:hover{
+    border: 1px solid rgba(255, 217, 0, 0.479);
     /* border-bottom: 1px solid cyan; */
     /* border-top: 1px solid cyan; */
     box-shadow: inset 0px 0px 10px gold;
